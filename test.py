@@ -229,6 +229,17 @@ class myclass:
 		print("sab mast")
 
 
+class myclass2:
+	def __init__(self):
+		self.__hi()
+
+	def funct(self):
+		print("hi how are you")
+
+	def __hi(self):
+		print("sab mast")
+
+
 obj = myclass()
 obj.funct();
 
